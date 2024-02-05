@@ -6,10 +6,12 @@
 
 .container {
     width: 100vw;
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/back.jpg);
     background-position: center;
     background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -90,7 +92,7 @@ button:hover {
 
 .card {
 
-    width: 50%;
+    width: 200px;
     height: 230px;
     display: inline-block;
     border-radius: 10px;
@@ -101,6 +103,7 @@ button:hover {
     background-image: url(../images/cup1.jpg);
     background-position: center;
     background-size: cover;
+    transition: 0.5s ease;
 }
 
 .card2 {
@@ -113,4 +116,8 @@ button:hover {
 
 .card4 {
     background-image: url(../images/cup4.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
