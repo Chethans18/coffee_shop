@@ -132,9 +132,9 @@ button:hover {
 /* media query */
 
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-   
+    /* tab*/
     .container {
         padding-left: 5%;
         padding-right: 5%;
@@ -178,11 +178,11 @@ button:hover {
         height: auto;
         margin: 10px 0;
     }
-} */
+}
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
-   
+    /*typical mobile */
     .row {
         margin: 10px;
     }
@@ -199,7 +199,7 @@ button:hover {
     button {
         font-size: 16px;
     }
-} */
+}
 
 
 
