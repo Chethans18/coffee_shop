@@ -122,12 +122,19 @@ button:hover {
     transform: translateY(-10px);
 }
 
+/*To explore*/
+
+
+
+
+
 
 /* media query */
 
-@media screen and (max-width: 768px) {
 
+/* @media screen and (max-width: 768px) {
 
+   
     .container {
         padding-left: 5%;
         padding-right: 5%;
@@ -170,5 +177,35 @@ button:hover {
         width: 100%;
         height: auto;
         margin: 10px 0;
+    }
+} */
+
+/* @media screen and (max-width: 480px) {
+
+   
+    .row {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+} */
+
+
+
+/* Additional media query for tablets (adjust the max-width as needed) */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .col {
+        flex-basis: 50%;
     }
 }
